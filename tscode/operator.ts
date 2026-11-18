@@ -50,8 +50,8 @@ function comparisonoperator(){
     console.log("check for equality")
    let x = 10
    let y = "10"
-   console.log(x==y)
-   console.log(x===y)
+ //  console.log(x==y) 
+ //  console.log(x===y)
 
 }
 function logicaloperators(){
