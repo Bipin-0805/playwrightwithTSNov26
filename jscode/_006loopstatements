@@ -24,12 +24,12 @@ function forloop(){
   for(let i=1; i<=5; i++){
     let pattern =""
     for(let j = 1; j<=4; j++){
-        pattern += "* "
+        pattern += "* " // * * * * 
     }
 
     console.log(pattern)
   }
 
  }
-
+// print table of any number taking input from the user
 nestedforloop()
