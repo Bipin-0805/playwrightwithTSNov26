@@ -53,9 +53,39 @@ function ladderif(){
   }else{
     console.log("Cross Carefully")
   }
-
+// write same program using ternary operator
 }
 
 
-ladderif()
+function switchcase(){
+    /*
+        switch(statement):
+          case:
+            code
+            break
+        default:
+            code    
+    */
+  //  let userrole = prompt("Enter your role (admin, dev, qa, guest) ")
+  let userrole = 'qa'
+    switch (userrole.trim()) {
+        case 'admin':
+            console.log("Full Access")
+            break;
+        case 'dev':
+            console.log("Developer access") 
+            break; 
+        case 'qa':
+            console.log("qa access")  
+            break;
+        case 'guest':
+            console.log("Guest access, Read only")  
+            break;
+        default:
+            console.log("Access Denied.")
+            break;
+    }
+
+}
+switchcase()
 

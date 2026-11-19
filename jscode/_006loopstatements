@@ -1,0 +1,35 @@
+/*
+loops: to repeat the code execution to know number of times
+for 
+while 
+do-while
+for.. of 
+for .. in
+
+for(counter initialization; condition; increment/decrement){
+  code block
+}
+
+*/
+
+function forloop(){
+    for(let i=1; i<=5; i++){
+        console.log("Hello world!!!")
+    }
+}
+
+
+// nested for loop - outer loop is for rows and inner for loop is for columns
+ function nestedforloop(){
+  for(let i=1; i<=5; i++){
+    let pattern =""
+    for(let j = 1; j<=4; j++){
+        pattern += "* "
+    }
+
+    console.log(pattern)
+  }
+
+ }
+
+nestedforloop()
